@@ -13,8 +13,8 @@ const _test = baseTest.extend<{
     const loginPage = new LoginPage(loginDomain, page);
     await loginPage.gotoLoginPage();
     await loginPage.enterUserCredentials({
-      email: "trinhthelong.bav@gmail.com",
-      password: "The@15122000Long",
+      email: "(YourEmail)",
+      password: "(YourPass)",
     });
     await loginPage.selectShopbaseShop();
     await use(loginPage);
